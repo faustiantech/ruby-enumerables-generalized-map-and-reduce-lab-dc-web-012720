@@ -9,9 +9,9 @@ def map(source)
   result
 end
 
-def reduce(source)
-if sp
-    accum = sp
+def reduce(source,start)
+if start
+    accum = start
     i = 0
   else
     accum = s[0]
