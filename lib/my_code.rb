@@ -11,15 +11,15 @@ end
 
 def reduce(source,start)
 if start
-    accum = start
+    result = start
     i = 0
   else
-    accum = s[0]
+    result = source[0]
     i = 1
   end
   while i < s.length
-    accum = yield(accum, s[i])
+    result = yield(result, source[i])
     i += 1
   end
-  accum
+  result
 end
