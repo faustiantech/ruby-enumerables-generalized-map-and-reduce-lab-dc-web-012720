@@ -5,7 +5,8 @@ def my_own_map(source)
   while i < source.count do
     result.push(yield(source[i]))
     i += 1
-  end 
+  end
+  result
 end
 
 def my_own_reduce()
