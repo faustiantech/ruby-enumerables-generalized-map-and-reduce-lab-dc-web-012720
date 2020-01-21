@@ -17,7 +17,7 @@ if start
     result = source[0]
     i = 1
   end
-  while i < s.length
+  while i < source.length
     result = yield(result, source[i])
     i += 1
   end
