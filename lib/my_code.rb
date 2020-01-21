@@ -9,6 +9,11 @@ def map(source)
   result
 end
 
-def my_own_reduce()
-  
+def reduce(source)
+  i = 0
+  while i < source.count do
+    yield(source[i])
+    i += 1
+  end
+  result
 end
