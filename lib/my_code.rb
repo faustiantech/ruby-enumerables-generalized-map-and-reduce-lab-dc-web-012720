@@ -1,5 +1,5 @@
 # Your Code Here
-def my_own_map(source)
+def map(source)
   result = []
   i = 0
   while i < source.count do
