@@ -9,7 +9,7 @@ def map(source)
   result
 end
 
-def reduce(source,start)
+def reduce(source,start=nil)
 if start
     result = start
     i = 0
