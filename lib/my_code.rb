@@ -9,7 +9,7 @@ def map(source)
   result
 end
 
-def my_own_reduce(source,start)
+def reduce(source,start)
 if start
     result = start
     i = 0
